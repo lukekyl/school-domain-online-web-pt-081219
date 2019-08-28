@@ -20,11 +20,7 @@ class School
   end
   
   def sort
-    new_array = {}
-    @roster.each.sort{ |grade|
-      
-      new_array[grade] << @roster[grade]
-    }
+    school.sort
     
   end
   
