@@ -21,6 +21,7 @@ class School
   
   def sort
     sorted_roster = @roster.sort.to_h
+    return sorted_roster
   end
   
 end
