@@ -23,7 +23,7 @@ class School
     new_roster = {}
     roster.each{|grade, name|
       new_roster[grade] = []
-      new_roster[grade] = roster[name].sort
+      new_roster[grade] = name.sort
     }
     new_roster
   end
