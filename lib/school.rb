@@ -26,5 +26,5 @@ class School
       new_roster[grade] = roster[name].sort
     }
   end
-  
+  new_roster
 end
