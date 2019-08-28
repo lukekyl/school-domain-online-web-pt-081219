@@ -20,7 +20,11 @@ class School
   end
   
   def sort
-    roster.sort.to_h
+    new_roster = {}
+    roster.each{|grade, name|
+      new_roster[grade] = []
+      new_roster[grade] = roster[name].sort
+    }
   end
   
 end
